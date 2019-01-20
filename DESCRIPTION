@@ -1,0 +1,16 @@
+Package: gslope
+Type: Package
+Title: Gaussian graphical model estimation using sorted l1 penalty
+Version: 0.2.0
+Author: Piotr Sobczyk, Malgorzata Bogdan
+Maintainer: Piotr Sobczyk <Piotr.Sobczyk@pwr.edu.pl>
+Description: Performing estimation of Gaussian graphical model. Convex optimization based on ADMM
+Encoding: UTF-8
+License: GPL-3
+Depends:
+    R (>= 3.2.1)
+Imports:
+    SLOPE
+NeedsCompilation: no
+LazyData: true
+RoxygenNote: 6.0.1
